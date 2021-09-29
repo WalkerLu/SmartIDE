@@ -28,7 +28,7 @@ description: >
 
 ```bash
 curl -OL  "https://smartidedl.blob.core.chinacloudapi.cn/releases/$(curl -L -s https://smartidedl.blob.core.chinacloudapi.cn/releases/stable.txt)/smartide" \
-&& cp smartide /usr/local/bin/smartide \
+&& mv smartide /usr/local/bin/smartide \
 && chmod +x /usr/local/bin/smartide
 ```
 
